@@ -1,0 +1,204 @@
+body {
+	font-family: 
+	"Noto Sans", sans-serif, Arial, Tahoma;
+	color:  rgb(20, 20, 102);
+	background-color: rgb(220, 228, 236);
+}
+
+div.container {
+	align-content-center:;
+}
+
+header {
+	background-color: rgb(28, 117, 218);
+	border: solid 3px rgb(20, 20, 102);
+	border-radius: 10px;
+	margin: 75px 10px 30px 10px;
+}
+
+img#img01 {
+	border: solid 3px rgb(220, 228, 236);
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 3px rgb(20, 20, 102);
+	color: rgb(220, 228, 236);
+}
+
+h1.modal-title {
+	text-shadow: 1px 1px 3px rgb(20, 20, 102);
+	color: rgb(20, 20, 102);
+}
+
+h2 {
+	text-align: center;
+	text-shadow: 1px 1px 3px rgb(28, 117, 218);
+	color: rgb(20, 20, 102);
+} 
+
+h3 {
+	text-align: center;
+	text-shadow: 1px 1px 3px rgb(28, 117, 218);
+	color: rgb(20, 20, 102);
+} 
+
+.navbar {
+	background-color: rgb(220, 228, 236);
+	border: solid 2px rgb(20, 20, 102);
+	border-radius: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	font-weight: bold; 
+	margin: 4px;
+}
+
+.intro { 
+	background-color: #AEC3D9;
+	border: solid 3px rgb(20, 20, 102);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 1px 10px 1px 10px;
+}
+
+p#intro, p#aboutme {
+	text-indent: 40px;
+}
+
+.portfolio {
+ 	background-color: #83AAD6;
+	border: 3px solid rgb(20, 20, 102);
+	border-radius: 10px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-inner img {
+     margin: auto;
+}
+
+div.carousel-caption {
+	background-color: #83AAD666;
+	color: rgb(20, 20, 102);
+	padding: 0px;
+}
+
+table#table01 {
+    width: 500px;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+p.label {
+	text-align: center;
+	font-weight: bold;
+}
+
+.aboutme { 
+	background-color: #AEC3D9;
+	border: solid 3px rgb(20, 20, 102);
+	border-radius: 10px;
+	width: 800px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog { 
+	background-color: #AEC3D9;
+	border: solid 3px rgb(20, 20, 102);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.card-title {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.card-body {
+	background-color: #f1f1f1
+}
+
+.d-grid {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.blogpost { 
+	background-color: ##AEC3D9;
+	border: solid 3px rgb(20, 20, 102);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 1px 10px 1px 10px;
+}
+
+div#blogposts {
+	text-indent: 40px;
+}
+
+footer {
+	font-weight: bold;
+}
+
+footer.text-center {
+	background-color: #f1f1f1;
+}
+
+div.text-center {
+	background-color: rgb(220, 228, 236);
+}
+
+
+/* brand icon styling */
+.fa {
+  padding: 0px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #0a66c2;
+  color: white;
+}
+
+
+.fa-github {
+  background: #333333;
+  color: white;
+}
+
+
+.fa-google {
+  background: #db4437;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+	div#blogpostslg {
+	column-count: 2;
+	column-gap: 20px;
+	column-rule: 1px solid rgb(20, 20, 102);
+}
+}
